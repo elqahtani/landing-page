@@ -29,6 +29,8 @@ spec:
         image: elqahtani/landing-page
         ports:
         - containerPort: 80
+        imagePullPolicy: "Always"
+
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
